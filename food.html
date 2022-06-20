@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+<body style="background:#160040">
+  
+  <div class="upperbar center">
+    <img src="images/BeingFoodie.png" style="width: 50px;height: 40px;"> 
+    <h1 id="webtitle" class="line-1 anim-typewriter"  style="color: white;">Being Foodie !</h1>
+ </div>
+
+  <div class="sidebar">
+    <button class="btn btn-rounded btn-primary ml-4 mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fas fa-bars"></i></button>
+    <a href="https://anurag19-pandey.github.io/BeingFoodie.github.io/index.html" ><i class="fa fa-fw fa-home"></i></a>
+    <a href="#" class="active" ><i class="fas fa-cookie" ></i></a>
+    <a href="https://anurag19-pandey.github.io/BeingFoodie.github.io/morefood.html" ><i class="fas fa-utensils"></i></a>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">FILTER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+    <p>Time that you have to create a dish </p>
+    <fieldset>
+      <div class="some-class">
+        <input type="radio" class="radio" name="time" value="30" id="time30" checked/>
+          <label for="y">30 min</label>
+          <input type="radio" class="radio" name="time" value="45" id="time45" />
+          <label for="y">45 min</label>
+          <button id="resultsearch" onclick="displayRadioValue()">Result</button>
+        </div>
+      </fieldset>
+  </div>
+</div>
+</div>
+
+
+<div class="about">
+  
+  <div class="center">
+    <h1 style="color: white;">
+     TRENDING RECEPIES 🔥
+    </h1>
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        
+      </div>
+      <div class="col-10">
+        
+  <h3 style="color: white;"><span style="color: lightskyblue;font-weight: bolder;">Being Foodie!</span> provides the trendiest recepies 
+    going around the world. You will get the complete procedure on how to cook the dish. You can also pick the recipies like by user around the 🌍. 
+
+  </h3>
+</div>
+
+<div class="col-1">
+  
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="center">
+
+  <div class="loader-wrapper" id="loading">
+    <div class="loader">
+      <div class="loader loader-inner">
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+    <div class="container">
+       <div class="row"  id="ex">
+
+       
+       </div>
+       
+      </div>
+
+      <div class="nextprev">
+
+          <div id="next">
+              
+        </div>
+        
+        <div id="prev">
+            
+        </div>
+    </div>
+    <footer>
+      <p>Created By Anurag Pandey</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="food.js"></script>
+</body>
+</html>
